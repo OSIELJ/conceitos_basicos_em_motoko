@@ -7,7 +7,6 @@ import Int "mo:base/Int";
 import Nat "mo:base/Nat";
 */
 
-
 actor {
     // Basic variables
     let numero1 : Nat = 10;
@@ -30,6 +29,4 @@ actor {
     public func multiplicar(numero1: Nat, numero2: Nat) : async Nat {
       return numero1 * numero2;
     };
-
-
 };
